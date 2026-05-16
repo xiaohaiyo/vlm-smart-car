@@ -1,11 +1,14 @@
 # VLM 智能小车实验
 
 基于视觉语言模型（VLM）的智能小车项目，运行在 NVIDIA Jetson AGX Orin 平台上。
+## Demo Video
 
-![[f57d1485b2dfd1c8def0b1f1d8ab855a.mp4]]
+https://github.com/user-attachments/assets/1513e14d-b42a-4fb9-8eab-1fdb1c9cfd4f
 ## 大概项目架构
 
-![[Pasted image 20260515210344.png]]
+
+
+![architecture](doc/images/1.png)
 ## 环境配置
 
 ### 硬件要求
