@@ -56,7 +56,6 @@ https://nvidia.github.io/TensorRT-Edge-LLM/latest/cpp_api.html
 |------|------|------|--------|
 | 引擎文件 | 3.3 GB | 1.3 GB | **60.6%** |
 | 嵌入文件 | 594 MB | 594 MB | 0% |
-| Tokenizer | 6.8 MB | 11 MB | +62% |
 | **总计** | **3.9 GB** | **1.9 GB** | **51.3%** |
 
 ### 1.2 视觉编码器引擎
