@@ -1,0 +1,1 @@
+cmd_/home/nvidia/VLM_project/bot_project/tmp/ch341_build/Module.symvers := sed 's/\.ko$$/\.o/' /home/nvidia/VLM_project/bot_project/tmp/ch341_build/modules.order | scripts/mod/modpost -m   -o /home/nvidia/VLM_project/bot_project/tmp/ch341_build/Module.symvers -e -i Module.symvers   -T -

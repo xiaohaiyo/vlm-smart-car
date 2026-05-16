@@ -1,0 +1,14 @@
+# 语音识别参数
+speech_node:
+  ros__parameters:
+    # ASR 引擎路径
+    engine_dir: "/home/nvidia/VLM_project/Qwen3-ASR-0.6B_onnx/engine/llm"
+    audio_dir: "/home/nvidia/VLM_project/Qwen3-ASR-0.6B_onnx/engine/audio"
+
+    # 音频设备
+    device_name: "default"       # 蓝牙耳机会自动选择
+    sample_rate: 16000           # 采样率
+    chunk_duration_ms: 1000      # 每帧时长（毫秒）
+
+    # VAD 语音活动检测
+    vad_threshold: 0.01          # 音量阈值

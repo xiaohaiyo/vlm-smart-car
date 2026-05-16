@@ -1,0 +1,10 @@
+# VLM 推理参数（宿主机 - 性能优化版）
+vlm_node:
+  ros__parameters:
+    engine_dir: "/home/nvidia/VLM_project/Cosmos_ONNXINT4/engine/llm"
+    visual_dir: "/home/nvidia/VLM_project/Cosmos_ONNXINT4/engine/visual"
+    max_tokens: 64                    # 减少生成长度（128→64）
+    temperature: 0.3
+    top_p: 0.8
+    top_k: 20
+    default_prompt: "描述这个图像"

@@ -1,0 +1,1 @@
+cmd_/home/nvidia/VLM_project/bot_project/tmp/ch341_build/ch341.ko := ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/nvidia/VLM_project/bot_project/tmp/ch341_build/ch341.ko /home/nvidia/VLM_project/bot_project/tmp/ch341_build/ch341.o /home/nvidia/VLM_project/bot_project/tmp/ch341_build/ch341.mod.o;  true

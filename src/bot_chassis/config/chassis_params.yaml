@@ -1,0 +1,13 @@
+# 底盘控制参数 (D100 差速底盘)
+chassis_node:
+  ros__parameters:
+    # 速度限制
+    max_linear_vel: 0.3      # 最大线速度 (m/s)
+    max_angular_vel: 2.0     # 最大角速度 (rad/s)
+
+    # 安全参数
+    cmd_timeout: 0.5         # 指令超时时间 (秒)，超时自动停车
+    publish_rate: 20.0       # 发布频率 (Hz)
+
+    # 话题配置
+    cmd_vel_topic: "/cmd_vel"  # codbot_base 订阅的话题

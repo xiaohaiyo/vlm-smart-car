@@ -1,0 +1,10 @@
+# Isaac ROS 容器配置
+
+# 项目目录挂载
+-v /home/nvidia/VLM_project/bot_project:/workspace/bot_project
+-v /home/nvidia/VLM_project/Cosmos_ONNXINT4:/workspace/models/Cosmos_ONNXINT4
+-v /home/nvidia/VLM_project/Cosmos_ONNX:/workspace/models/Cosmos_ONNX
+-v /home/nvidia/VLM_project/TensorRT-Edge-LLM:/workspace/TensorRT-Edge-LLM
+
+# USB 设备访问
+-v /dev/bus/usb:/dev/bus/usb

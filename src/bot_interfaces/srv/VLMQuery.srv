@@ -1,0 +1,9 @@
+# VLM 查询服务
+uint8[] image_data        # 图像数据（RGB8）
+int32 image_width         # 图像宽度
+int32 image_height        # 图像高度
+string prompt             # 查询提示词
+---
+string response           # VLM 回复
+float32 confidence        # 置信度
+bool success              # 是否成功

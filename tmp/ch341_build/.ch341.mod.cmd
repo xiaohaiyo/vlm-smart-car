@@ -1,0 +1,1 @@
+cmd_/home/nvidia/VLM_project/bot_project/tmp/ch341_build/ch341.mod := printf '%s\n'   ch341.o | awk '!x[$$0]++ { print("/home/nvidia/VLM_project/bot_project/tmp/ch341_build/"$$0) }' > /home/nvidia/VLM_project/bot_project/tmp/ch341_build/ch341.mod

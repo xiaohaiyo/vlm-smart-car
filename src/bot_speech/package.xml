@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>bot_speech</name>
+  <version>0.1.0</version>
+  <description>语音识别节点 - 蓝牙耳机输入 + Qwen3-ASR</description>
+  <maintainer email="dev@bot.project">bot_dev</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>bot_interfaces</depend>
+
+  <build_depend>cuda</build_depend>
+  <build_depend>tensorrt</build_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

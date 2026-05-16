@@ -1,0 +1,70 @@
+# ===== 编译产物 =====
+build/
+install/
+log/
+
+# ===== ROS 2 生成文件 =====
+*.pyc
+__pycache__/
+*.egg-info/
+*.egg
+
+# ===== C++ 编译文件 =====
+*.o
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+
+# ===== IDE 文件 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+
+# ===== TensorRT 引擎文件 (大文件) =====
+*.engine
+*.trt
+*.plan
+
+# ===== ONNX 模型文件 (大文件) =====
+*.onnx
+
+# ===== 模型权重文件 (大文件) =====
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# ===== 临时文件 =====
+*.tmp
+*.log
+*.bak
+
+# ===== 音频文件 =====
+*.wav
+*.mp3
+
+# ===== 视频文件 =====
+*.mp4
+*.avi
+
+# ===== 压缩文件 =====
+*.tar.gz
+*.zip
+*.rar
+
+# ===== 模型目录 =====
+Cosmos_ONNX/
+Cosmos_ONNXINT4/
+Qwen3-ASR-0.6B_onnx/
+Qwen3-TTS-12Hz-1.7B-CustomVoice_onnx/
+TensorRT-Edge-LLM/
+realsense-ros/
+codbot_base/

@@ -1,0 +1,1 @@
+cmd_/home/nvidia/VLM_project/bot_project/tmp/ch341_build/modules.order := {   echo /home/nvidia/VLM_project/bot_project/tmp/ch341_build/ch341.ko; :; } | awk '!x[$$0]++' - > /home/nvidia/VLM_project/bot_project/tmp/ch341_build/modules.order
