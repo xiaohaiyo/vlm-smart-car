@@ -338,3 +338,8 @@ bot_project/
 │
 └── README.md
 ```
+
+
+## 许可证
+
+MIT License
